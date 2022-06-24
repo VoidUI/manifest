@@ -1,4 +1,4 @@
-# VoidUI Eternity Project - Android 12.1.0
+# VoidUI Eternity Project - Weekly Updates Branch
 
 ![Picsart_22-06-16_04-16-29-275](https://user-images.githubusercontent.com/34755141/174213996-2a08b196-2fd0-49af-8f17-3fe5f7cd2bd7.png)
 
@@ -7,7 +7,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/VoidUI/manifest -b aosp-12.1
+repo init -u https://github.com/VoidUI/manifest -b aosp-12.1-weekly
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags

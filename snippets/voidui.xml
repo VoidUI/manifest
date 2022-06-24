@@ -6,6 +6,10 @@
           revision="aosp-12.1"
           review="gerrit.pixelexperience.org" />
 
+  <remote name="voidui-weekly"
+          fetch="https://github.com/VoidUI"
+          revision="aosp-12.1-weekly" />
+
   <remote name="voidui-caf"
           fetch="https://github.com/VoidUI-CAF"
           revision="aosp-12.1"
@@ -81,7 +85,7 @@
   <project path="manifest" name="manifest" remote="voidui" />
   
   <!-- General repos Exrtas -->
-  <project path="vendor/aosp" name="vendor_aosp" remote="voidui" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="voidui-weekly" />
   <project path="vendor/gapps" name="vendor_gapps" remote="voidui-gitlab" clone-depth="1" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="voidui" />
   <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="voidui" />
@@ -186,8 +190,8 @@
   <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="voidui" />
 
   <!-- Our Updater fork -->
-  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="voidui" />
-  <project path="vendor/officialdevices" name="official_devices" remote="VoidUI-Devices" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="voidui-weekly" />
+  <project path="vendor/officialdevices" name="weekly_updates_ota" remote="VoidUI-Devices" />
    
   <!-- Tools Repos Extras -->
   <project path="tools/extract-utils" name="tools_extract-utils" remote="voidui" />
