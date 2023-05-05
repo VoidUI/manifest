@@ -78,9 +78,9 @@
   <project path="hardware/qcom-caf/sm8150-common/audio" name="hardware_qcom-caf_sm8150-common_audio" remote="pixel" revision="twelve" />
   <project path="hardware/qcom-caf/sm8150-common/display" name="hardware_qcom-caf_sm8150-common_display" remote="pixel" revision="twelve" />
   <project path="hardware/qcom-caf/sm8150-common/media" name="hardware_qcom-caf_sm8150-common_media" remote="pixel" revision="twelve" />
-  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="pixel" />
-  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="pixel" />
-  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="pixel" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom-caf_sm8250_audio" remote="voidui" />
+  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom-caf_sm8250_display" remote="voidui" />
+  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom-caf_sm8250_media" remote="voidui" />
   <project path="hardware/qcom-caf/sm8250-common/audio" name="hardware_qcom-caf_sm8250-common_audio" remote="pixel" revision="twelve" />
   <project path="hardware/qcom-caf/sm8250-common/display" name="hardware_qcom-caf_sm8250-common_display" remote="pixel" revision="twelve" />
   <project path="hardware/qcom-caf/sm8250-common/gps" name="hardware_qcom-caf_sm8250-common_gps" remote="pixel" revision="twelve" />
@@ -107,9 +107,9 @@
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="pixel" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="vendor_qcom_opensource_audio-hal_st-hal" remote="pixel" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" remote="pixel" />
-  <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="pixel" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="voidui" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_commonsys_bluetooth_ext" remote="pixel" />
-  <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_commonsys_display" remote="pixel" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_commonsys_display" remote="voidui" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_commonsys_packages_apps_Bluetooth" remote="pixel" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="pixel" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" remote="pixel" />
